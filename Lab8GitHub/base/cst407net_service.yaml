@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: cst407net-service
   namespace: cst407-deployment
+  app.kubernetes.io/instance: cst407webpage
   labels:
     app: cst407net-service
 spec:
