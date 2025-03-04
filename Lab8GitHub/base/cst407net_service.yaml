@@ -15,4 +15,4 @@ spec:
   selector:
     app: cst407
   sessionAffinity: None
-  type: nodePort
+  type: NodePort
