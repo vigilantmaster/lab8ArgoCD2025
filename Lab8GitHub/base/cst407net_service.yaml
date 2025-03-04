@@ -2,17 +2,17 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cst407net-service
-  
+  namespace: cst407-deployment
   labels:
     app: cst407net-service
 spec:
-  type: LoadBalancer
+  type: nodePort
   ports:
   - name: http
   #loadbalancer port
-    port: 31460
+    port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 31460
     # this pod port 
   selector:
   # now we choose which pods to load balance
