@@ -10,7 +10,7 @@ spec:
   ports:
   - name: http
   #loadbalancer port
-    port: 80
+    port: 31460
     protocol: TCP
     targetPort: 80
     # this pod port 
