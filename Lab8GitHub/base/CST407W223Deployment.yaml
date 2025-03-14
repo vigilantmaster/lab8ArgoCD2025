@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: cst407
-        image: intime333/nice_docker:latest
+        image: intime333/cool_docker:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
