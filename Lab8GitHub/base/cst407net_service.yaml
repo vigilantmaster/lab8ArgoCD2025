@@ -15,4 +15,4 @@ spec:
   selector:
     app: cst407
   sessionAffinity: None
-  type: NodePort
+  type: LoadBalancer
